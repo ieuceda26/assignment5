@@ -9,11 +9,7 @@ async function loadRepos() {
     gallery.innerHTML = "Loading";
 
     try {
-        let res = await fetch(apiUrl, {
-            headers: {
-                "Authorization": "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"
-            }
-        });
+        let res = await fetch(apiUrl);
         res = await res.json();
 
         if (res.length === 0) {
