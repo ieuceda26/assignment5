@@ -1,5 +1,5 @@
 # assignment5
-# GitHub gallery
+<h1>GitHub gallery</h1>
 <h1>Description</h1>
 Hello, for the fifth assignment I will be creating a github gallery page where you will be able to see a users public information.
 <h1>Dependencies</h1>
